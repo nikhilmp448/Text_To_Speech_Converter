@@ -61,7 +61,7 @@ pip install pyinstaller
 3) Generate the Spec File: Use PyInstaller to generate a spec file for your application. Replace your_script.py with the name of your Python script:
 
 ```console
-pyinstaller --name TSSConverter --onefile your_script.py
+pyinstaller --name TSSConverter --onefile textToSpeach.py
 ```
 4) Build the Executable: Run the following command to build the executable:
 ```console
